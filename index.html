@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Quiz Game</title>
+</head>
+<body>
+    <main>
+        <div class="quiz_box">
+            <h1 style="text-align: center; margin-bottom: 50px; margin-top: -50px; font-size: 20px;" id="question">question here</h1>
+
+            <li> 
+                <input type="radio" name="option" id="ans1">
+                <label for="option" id="option1">option1</label>
+            </li>
+            <li>
+                <input type="radio" name="option" id="ans2">
+                <label for="option" id="option2">option2</label>
+            </li>
+            <li>
+                <input type="radio" name="option" id="ans3">
+                <label for="option" id="option3">option3</label>
+            </li>
+            <li>
+                <input type="radio" name="option" id="ans4">
+                <label for="option" id="option4">option4</label>
+            </li>
+            <button id="btn"> Submit </button>
+
+            <div class="showing_result">
+                <p id="result">dlfmsfs</p>
+                <button id="reload">Play Again</button>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- #######Jquery CDN############# -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- ##########External Javascript########### -->
+    <Script src="quiz_app_codes.js"></Script>
+</body>
+</html>

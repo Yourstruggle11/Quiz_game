@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Original Surfer', cursive;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #00b2a9, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+main .quiz_box{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px -3px #00b2a9,
+                -4px -4px 5px -3px #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;  
+}
+main .quiz_box li{
+    list-style-type: none;
+    font-size: 25px;
+}
+main .quiz_box li input{
+    width: 20px;
+    height: 17px;
+
+}
+main .quiz_box #btn{
+    position: relative;
+    top: 30px;
+    left: 38%;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.5),
+                -4px -4px 5px -3px rgba(0,0,0,0.5);
+    color: #00b2a9;
+}
+main .quiz_box .showing_result{
+    width: 300px;
+    height: 100px;
+    background: linear-gradient(120deg, #2fa5d6, #b52f2c);
+    position: relative;
+    top: 10%;
+    left: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    transition: all 1s;
+    border-radius: 10px;
+    color: cyan;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.5);
+
+}
+main .quiz_box .showing_result > button{
+    position: relative;
+    top: 30px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px -2px rgba(0,0,0,0.5),
+                -4px -4px 5px -3px rgba(0,0,0,0.5);
+    color: #00b2a9;
+}
