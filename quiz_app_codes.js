@@ -273,14 +273,14 @@ $(document).ready(function () {
             let checkedanswer = checkedans();
             console.log(checkedanswer);
 
-            if (checkedanswer === hey[count].ans) {
+            if (checkedanswer === hey1[count].ans) {
                 point++;
             };
 
             unchecked();
 
             count++
-            if (count < hey.length) {
+            if (count < hey1.length) {
                 loadQstn()
 
             }
@@ -353,14 +353,14 @@ $(document).ready(function () {
             let checkedanswer = checkedans();
             console.log(checkedanswer);
 
-            if (checkedanswer === hey[count].ans) {
+            if (checkedanswer === hey2[count].ans) {
                 point++;
             };
 
             unchecked();
 
             count++
-            if (count < hey.length) {
+            if (count < hey2.length) {
                 loadQstn()
 
             }
@@ -433,14 +433,14 @@ $(document).ready(function () {
             let checkedanswer = checkedans();
             console.log(checkedanswer);
 
-            if (checkedanswer === hey[count].ans) {
+            if (checkedanswer === hey3[count].ans) {
                 point++;
             };
 
             unchecked();
 
             count++
-            if (count < hey.length) {
+            if (count < hey3.length) {
                 loadQstn()
 
             }
